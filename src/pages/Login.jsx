@@ -39,11 +39,11 @@ const Login = () => {
         className="w-full px-3 py-2 border border-gray-800"
       />
       <div className="w-full flex justify-between text-sm mt-[-8px] px-2">
-        <p className="cursor-pointer text-gray-300">Forgot your password?</p>
+        <p className="cursor-pointer text-gray-300 hover:text-gray-500">Forgot your password?</p>
         {
           currentState === 'Login'
-          ? <p onClick={() => setCurrentState('Sign up')} className="cursor-pointer text-gray-300">Create account</p>
-          : <p onClick={() => setCurrentState('Login')} className="cursor-pointer text-gray-300">Login</p>
+          ? <p onClick={() => setCurrentState('Sign up')} className="cursor-pointer text-gray-300 hover:text-gray-500">Create account</p>
+          : <p onClick={() => setCurrentState('Login')} className="cursor-pointer text-gray-300 hover:text-gray-500">Login</p>
         }
       </div>
       <button
