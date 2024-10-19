@@ -77,7 +77,7 @@ const Collection = () => {
   // watching filters changes
   useEffect(() => {
     applyFilter();
-  }, [category, subCategory, search, showSearch])
+  }, [category, subCategory, search, showSearch, products])
 
   // watching sorting filters
   useEffect(() => {
